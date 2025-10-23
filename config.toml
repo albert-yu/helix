@@ -1,4 +1,4 @@
-theme = "kanabox_default"
+theme = "kanabox_transparent"
 
 [editor]
 line-number = "relative"
