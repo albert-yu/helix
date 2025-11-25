@@ -2,3 +2,7 @@ theme = "kanabox_default"
 
 [editor]
 line-number = "relative"
+end-of-line-diagnostics = "hint"
+
+[editor.inline-diagnostics]
+cursor-line = "warning"
