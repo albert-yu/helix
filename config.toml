@@ -1,4 +1,5 @@
-theme = "edge_light"
+theme = "kanabox_default"
+# theme = "edge_light"
 
 [editor]
 line-number = "relative"
