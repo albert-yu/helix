@@ -1,5 +1,7 @@
-theme = "kanabox_default"
-# theme = "edge_light"
+[theme]
+dark = "kanabox_default"
+light = "edge_light"
+fallback = "kanabox_default"
 
 [editor]
 line-number = "relative"
