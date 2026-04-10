@@ -7,5 +7,9 @@ fallback = "kanabox_default"
 line-number = "relative"
 end-of-line-diagnostics = "hint"
 
+[editor.file-picker]
+hidden = false
+git-ignore = true
+
 [editor.inline-diagnostics]
 cursor-line = "warning"
