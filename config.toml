@@ -1,7 +1,7 @@
 [theme]
-dark = "kanabox_default"
-light = "edge_light"
-fallback = "kanabox_default"
+dark = "kanabox_transparent"
+light = "edge_light_transparent"
+fallback = "kanabox_transparent"
 
 [editor]
 line-number = "relative"
