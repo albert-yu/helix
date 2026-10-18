@@ -1,6 +1,14 @@
-[language-server]
-biome = { command = "biome", args = ["lsp-proxy"], config = { inline_config = { javascript = { formatter = { indentStyle = "space", indentWidth = 2 } } } } }
-tsc = { command = "tsc", args = ["--lsp", "--stdio"] }
+[language-server.biome]
+command = "biome"
+args = ["lsp-proxy"]
+
+[language-server.biome.config.biome.inlineConfig.javascript.formatter]
+indentStyle = "space"
+indentWidth = 2
+
+[language-server.tsc]
+command = "tsc"
+args = ["--lsp", "--stdio"]
 
 [[language]]
 name = "javascript"
