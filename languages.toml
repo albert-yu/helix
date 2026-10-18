@@ -1,24 +1,28 @@
 [language-server]
-biome = { command = "biome", args = ["lsp-proxy"] }
+biome = { command = "biome", args = ["lsp-proxy"], config = { inline_config = { javascript = { formatter = { indentStyle = "space", indentWidth = 2 } } } } }
 tsc = { command = "tsc", args = ["--lsp", "--stdio"] }
 
 [[language]]
 name = "javascript"
+indent = { tab-width = 2, unit = "  " }
 language-servers = [ { name = "tsc", except-features = [ "format" ] }, "biome" ]
 auto-format = true
 
 [[language]]
 name = "typescript"
+indent = { tab-width = 2, unit = "  " }
 language-servers = [ { name = "tsc", except-features = [ "format" ] }, "biome" ]
 auto-format = true
 
 [[language]]
 name = "tsx"
+indent = { tab-width = 2, unit = "  " }
 auto-format = true
 language-servers = [ { name = "tsc", except-features = [ "format" ] }, "biome" ]
 
 [[language]]
 name = "jsx"
+indent = { tab-width = 2, unit = "  " }
 auto-format = true
 language-servers = [ { name = "tsc", except-features = [ "format" ] }, "biome" ]
 
